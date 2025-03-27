@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+venv/
+.env
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore video files (if you don't want to track them)
+static/curls.mp4
+
+# Ignore dependencies (optional, since you have requirements.txt)
+*.egg-info/
